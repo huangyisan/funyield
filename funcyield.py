@@ -12,4 +12,4 @@ def gen_random():
         yield i
 
 for i in gen_random():
-    print(i)
+    print(i)jun
