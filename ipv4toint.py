@@ -35,7 +35,7 @@ reduce(lambda x,y:x*256**2+y, [map(int,list("123.1.2.1".split('.')))[1],reduce(l
 map(int,list("123.1.2.1".split('.')))[-4]
 
 ipv4 = "1.1.1.1"
-reduce(lambda x,y:x*256**3+y, [map(int,list(ipv4.split('.')))[0], reduce(lambda x,y:x*256**2+y, [map(int,list(ipv4.split('.')))[1],reduce(lambda x,y:x*256+y, map(int,list(ipv4.split('.'))[2:4]))])])
+reduce(lambda x,y:x*256**3+y, [list(map(int,list(ipv4.split('.'))))[0], reduce(lambda x,y:x*256**2+y, [list(map(int,list(ipv4.split('.'))))[1],reduce(lambda x,y:x*256+y, list(map(int,list(ipv4.split('.'))[2:4])))])])
 
 reduce(lambda x,y:x*256**2+y,[map(int,list("123.1.2.1".split('.')))[-3],reduce(lambda x,y:x*256+y, map(int,list("123.1.2.1".split('.'))[-3:-1]))])
 
