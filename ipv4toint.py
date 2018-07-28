@@ -5,6 +5,17 @@ a:256*256*256*a
 b:256*256*b
 c:256*c
 d:d
+
+a*256*256*256 + b*256*256 + c*256 +d
+
+256*(a*256*256+b*256+c)+d
+
+256*(256*(256*a+b)+c)+d
+
+256*a+b
+
+lambada 256*x.y:256*x+y
+
 '''
 from functools import reduce
 
@@ -12,19 +23,20 @@ def devide(x):
     return x.split('.')
 
 ipv4 = ['123', '1', '2', '1']
+
 list("123.1.2.1".split('.'))[::-1]
 
 map(int,list("123.1.2.1".split('.'))[::-1])
 
-def func(x,y):
-    x
 
 
 16908667
 
+reduce(lambda x,y:x*256+y, map(int,list("123.1.2.1".split('.'))))
 
 # 前两位数据 513
 reduce(lambda x,y:x*256+y, map(int,list("123.1.2.1".split('.'))[2:4]))
+
 
 # 第三位数据 66049
 map(int,list("123.1.2.1".split('.')))[-3]
