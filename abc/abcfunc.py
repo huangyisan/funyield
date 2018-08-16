@@ -1,28 +1,18 @@
-from abc import ABC, abstractmethod
-class Foo:
-    def __getitem__(self, index):
-        ...
-    def __len__(self):
-        ...
-    def get_iterator(self):
-        return iter(self)
-
-class MyIterable(ABC):
+from abc import ABCMeta, abstractmethod
+class A(metaclass=ABCMeta):
+    def my_normal_method(self):
+        pass
 
     @abstractmethod
-    def __iter__(self):
-        while False:
-            yield None
+    def my_abstract_method(self):
+        pass
 
-    def get_iterator(self):
-        return self.__iter__()
+class B(A):
+    pass
 
-    @classmethod
-    def __subclasshook__(cls, C):
-        if cls is MyIterable:
-            if any("__iter__" in B.__dict__ for B in C.__mro__):
-                return True
-        return NotImplemented
+class C(A):
+    def my_abstract_method(self):
+        pass
 
-print(isinstance(Foo(), MyIterable))
-print(issubclass(Foo, MyIterable))
+
+C()
