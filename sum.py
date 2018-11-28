@@ -11,6 +11,7 @@ class Solution(object):
                     if i == other_num_index:
                         break
                     return [i,other_num_index]
+        return "cant find"
 nums = [3,2,4]
 target = 6
 a = Solution()
