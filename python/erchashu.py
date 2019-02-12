@@ -4,7 +4,14 @@ class BinNode(object):
         self.rchild = None
         self.val = val
 
-    def preOrder(self, root):
+    # def preOrder(self, root):
+    #     if root is None:
+    #         return
+    #     print(root.val)
+    #     self.preOrder(root.lchild)
+    #     self.preOrder(root.rchild)
+
+    def preOrder1(self, root):
         if root is None:
             return
         mystack = []
@@ -25,4 +32,5 @@ root.lchild = BinNode('left')
 root.rchild = BinNode('right')
 root.rchild.lchild = BinNode('rl')
 root.rchild.rchild = BinNode('rr')
-root.preOrder(root)
+
+root.preOrder1(root)
