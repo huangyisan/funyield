@@ -48,6 +48,19 @@ class BinTree(object):
         while mystack2:
             print(mystack2.pop().root)
 
+    def levelorder(self, root):
+        if root is None:
+            return
+        myqueue = []
+        node = root
+        myqueue.append(node)
+        while myqueue:
+            node = myqueue.pop(0)
+            print(node.root)
+            if node.left:
+                myqueue.append(node.left)
+            if node.right:
+                myqueue.append(node.right)
 
 root = BinTree('F')
 root.left = BinTree('B')
@@ -59,4 +72,6 @@ root.left.right.right = BinTree('E')
 root.right.right = BinTree('I')
 root.right.right.left = BinTree('H')
 
-root.backorder(root)
+# root.preorder(root)
+# root.backorder(root)
+root.levelorder(root)
