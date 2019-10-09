@@ -11,7 +11,7 @@ quote_ctx.subscribe(code, [ft.SubType.RT_DATA])
 # print(quote_ctx.get_rt_ticker(code))   # 获取逐笔
 # print(quote_ctx.get_cur_kline(code, num=100, ktype=ft.KLType.K_DAY))   #获取当前K线
 # print(quote_ctx.get_order_book(code))       # 获取摆盘
-print(quote_ctx.get_rt_data(code)[-1])       # 获取分时数据
+print(max(list(quote_ctx.get_rt_data(code)[-1].iloc[:,7])))       # 获取分时数据
 # print(quote_ctx.get_broker_queue(code))     # 获取经纪队列
 # 停止异步数据接收
 quote_ctx.stop()
