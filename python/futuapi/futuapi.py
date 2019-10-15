@@ -1,6 +1,6 @@
 import futu as ft
 import time
-quote_ctx = ft.OpenQuoteContext(host="127.0.0.1", port=11111)
+quote_ctx = ft.OpenQuoteContext(host="122.152.220.151", port=65111)
 
 
 code = 'SH.600000'
@@ -29,7 +29,8 @@ quote_ctx.set_handler(ft.TickerHandlerBase())  # 设置用于异步处理数据�
 
 n=10
 while n:
-    get_now_price()
+    get_max_volume()
+    # get_now_price()
     n-=1
     time.sleep(10)
 
