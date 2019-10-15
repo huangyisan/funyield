@@ -7,11 +7,12 @@ df = ts.get_realtime_quotes('600000') #Single stock symbol
 print(df[['code','name','price','bid','ask','volume','amount','time']])
 
 df = ts.get_tick_data('600000',date='2019-10-14',src='tt')
-print(df.tail(15))
+# print(df.tail(15))
 df['time'] = pd.to_datetime(df.time, format = '%H:%M:%S')
 df['type'] = '1'
 new_df = (df.groupby(['type', pd.Grouper(key='time', freq='1min')]).agg({'volume':'sum'}))
-print(new_df)
+# print(new_df)
+print(int(new_df['volume'].max()))
 # dates =  pd.to_datetime(df.time, format='%H:%M:%S')
 # print(dates)
 # df = (df.assign(date=dates)

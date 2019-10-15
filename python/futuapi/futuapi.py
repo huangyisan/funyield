@@ -19,9 +19,10 @@ def get_max_volume():
     quote_ctx.subscribe(code_list, [ft.SubType.RT_DATA])
     for i in code_list:
         data = quote_ctx.get_rt_data(i)
-        index = list(data)
-        print(max(list(quote_ctx.get_rt_data(i)[-1].iloc[:, 7])))
-        print(index)
+        # index = list(data)
+        print(data)
+        # print(max(list(quote_ctx.get_rt_data(i)[-1].iloc[:, 7])))
+        # print(index)
 
 # 上下文控制
 quote_ctx.start()  # 开启异步数据接收
