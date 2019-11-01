@@ -31,11 +31,17 @@ class Formula(models.Model):
         return self.name
 
 class Lover(models.Model):
+    # one to one relationship with formula
     formula = models.OneToOneField(Formula, on_delete=models.SET_NULL,null=True)
     lover_name = models.CharField(max_length=10,unique=True)
 
+    def __str__(self):
+        return self.lover_name
 
 class Soul(models.Model):
     # many to many relationship with formula
     formula = models.ManyToManyField(Formula)
-    set = models.CharField(max_length=10)
+    set = models.CharField(max_length=10,unique=True)
+
+    def __str__(self):
+        return self.set
