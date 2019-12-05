@@ -29,10 +29,11 @@ def window_move_left(resolution, size):
     w,h = size
 
     half_x = int(x/2)
-    # half_y = y/2
 
-    ratio_w = int(w/half_x)
-    h = ratio_w * h
+
+    ratio_w = abs(half_x / w)
+
+    h = int(ratio_w*h)
 
     win32gui.MoveWindow(hwnd, -8, 0, half_x, h, True)
 
