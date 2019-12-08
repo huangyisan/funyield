@@ -26,3 +26,7 @@ print(int(new_df['volume'].max()))
 # df = pro.daily(ts_code='600000.SH', start_date='20191014', end_date='20191014')
 # print(df)
 #
+import tushare as ts
+
+df = ts.get_tick_data('600000',date='2019-10-12',src='tt')
+print(df.head(10))
