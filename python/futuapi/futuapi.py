@@ -4,16 +4,17 @@ quote_ctx = ft.OpenQuoteContext(host="122.152.220.151", port=65111)
 
 
 code = 'SH.600000'
-code_list = ['SH.600000', 'SH.600519']
+code_list = ['SH.600000']
 
 def get_now_price():
     quote_ctx.subscribe(code_list, [ft.SubType.QUOTE])
     data = quote_ctx.get_stock_quote(code_list)
-    title = list(data[-1])
-    print(title)
+    # print(data)
+    # title = list(data[-1])
+    # print(title)
     print(list(data[-1].iloc[:, 8]))
     # print([i for i in list(data)])
-    print(data)
+    # print(data)
 
 def get_max_volume():
     quote_ctx.subscribe(code_list, [ft.SubType.RT_DATA])
@@ -30,7 +31,7 @@ quote_ctx.set_handler(ft.TickerHandlerBase())  # 设置用于异步处理数据�
 
 n=10
 while n:
-    get_max_volume()
+    get_now_price()
     # get_now_price()
     n-=1
     time.sleep(10)
