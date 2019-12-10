@@ -46,5 +46,5 @@ class Ui_mywindow(object):
         self.testbutton.setText(_translate("mywindow", "testbutton"))
         self.menufile.setTitle(_translate("mywindow", "file"))
 
-a = Ui_mywindow()
-a.setupUi()
+# a = Ui_mywindow()
+# a.setupUi()
