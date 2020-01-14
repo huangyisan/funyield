@@ -5,7 +5,9 @@ import (
 )
 
 func main() {
-	dict :=map[string]int{"a":1,"b":2}
-	k,err := dict["a"]
-	fmt.Println(k,err)
+	dict := make(map[interface{}]map[interface{}]interface{})
+	dict[name] = make(map[interface{}]interface{})
+	dict[name]["addr"] = "123"
+	fmt.Println(dict)
 }
+
