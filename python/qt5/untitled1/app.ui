@@ -42,8 +42,8 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>210</x>
-     <y>20</y>
+     <x>140</x>
+     <y>30</y>
      <width>221</width>
      <height>101</height>
     </rect>
@@ -61,20 +61,20 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>a</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_3">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>130</x>
       <y>20</y>
       <width>71</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>b</string>
     </property>
    </widget>
    <widget class="QCheckBox" name="checkBox_2">
@@ -87,7 +87,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>c</string>
     </property>
    </widget>
   </widget>
