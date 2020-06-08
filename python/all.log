@@ -1,0 +1,52 @@
+2020-05-08 00:25:33,011 - download.py[line:122] - INFO: info
+2020-05-08 00:25:33,012 - download.py[line:68] - INFO: https://music.liuzhijin.cn
+2020-05-08 00:25:33,714 - download.py[line:96] - INFO: 拥抱 (2013新录制作品)-http://dl.stream.qqmusic.qq.com/C100001sYeaM3Te8Ve.m4a?fromtag=38
+2020-05-08 00:25:33,779 - download.py[line:96] - INFO: 突然好想你-http://dl.stream.qqmusic.qq.com/C100002M8hNI2QgtRY.m4a?fromtag=38
+2020-05-08 00:25:33,826 - download.py[line:96] - INFO: 知足-http://dl.stream.qqmusic.qq.com/C100003SDOfs2wJvJh.m4a?fromtag=38
+2020-05-08 00:25:33,871 - download.py[line:96] - INFO: 后来的我们-http://dl.stream.qqmusic.qq.com/C1000022QuVR1LcRHN.m4a?fromtag=38
+2020-05-08 00:25:33,911 - download.py[line:96] - INFO: 你不是真正的快乐-http://dl.stream.qqmusic.qq.com/C100003g4dpV4bOEJs.m4a?fromtag=38
+2020-05-08 00:25:33,953 - download.py[line:96] - INFO: 倔强-http://dl.stream.qqmusic.qq.com/C100003Fgwxj4D1Mac.m4a?fromtag=38
+2020-05-08 00:25:33,991 - download.py[line:96] - INFO: 我不愿 让你一个人-http://dl.stream.qqmusic.qq.com/C100004LlhsV2NmnVY.m4a?fromtag=38
+2020-05-08 00:25:34,029 - download.py[line:96] - INFO: 温柔 (3DNA Live版)-http://dl.stream.qqmusic.qq.com/C100002hkFpw39NpGo.m4a?fromtag=38
+2020-05-08 00:25:34,069 - download.py[line:96] - INFO: 离开地球表面-http://dl.stream.qqmusic.qq.com/C100003j8IiV1X8Oaw.m4a?fromtag=38
+2020-05-08 00:25:34,107 - download.py[line:96] - INFO: 盛夏光年-http://dl.stream.qqmusic.qq.com/C100003fZkpm1X2qCH.m4a?fromtag=38
+2020-05-08 00:25:34,148 - download.py[line:116] - INFO: 爬取完成
+2020-05-08 00:29:01,618 - download.py[line:122] - INFO: info
+2020-05-08 00:29:01,621 - download.py[line:68] - INFO: https://music.liuzhijin.cn
+2020-05-08 00:29:02,298 - download.py[line:96] - INFO: 拥抱 (2013新录制作品)-http://dl.stream.qqmusic.qq.com/C100001sYeaM3Te8Ve.m4a?fromtag=38
+2020-05-08 00:29:02,345 - download.py[line:96] - INFO: 突然好想你-http://dl.stream.qqmusic.qq.com/C100002M8hNI2QgtRY.m4a?fromtag=38
+2020-05-08 00:29:02,384 - download.py[line:96] - INFO: 知足-http://dl.stream.qqmusic.qq.com/C100003SDOfs2wJvJh.m4a?fromtag=38
+2020-05-08 00:29:02,418 - download.py[line:96] - INFO: 后来的我们-http://dl.stream.qqmusic.qq.com/C1000022QuVR1LcRHN.m4a?fromtag=38
+2020-05-08 00:29:02,456 - download.py[line:96] - INFO: 你不是真正的快乐-http://dl.stream.qqmusic.qq.com/C100003g4dpV4bOEJs.m4a?fromtag=38
+2020-05-08 00:29:02,496 - download.py[line:96] - INFO: 倔强-http://dl.stream.qqmusic.qq.com/C100003Fgwxj4D1Mac.m4a?fromtag=38
+2020-05-08 00:29:02,535 - download.py[line:96] - INFO: 我不愿 让你一个人-http://dl.stream.qqmusic.qq.com/C100004LlhsV2NmnVY.m4a?fromtag=38
+2020-05-08 00:29:02,569 - download.py[line:96] - INFO: 温柔 (3DNA Live版)-http://dl.stream.qqmusic.qq.com/C100002hkFpw39NpGo.m4a?fromtag=38
+2020-05-08 00:29:02,613 - download.py[line:96] - INFO: 离开地球表面-http://dl.stream.qqmusic.qq.com/C100003j8IiV1X8Oaw.m4a?fromtag=38
+2020-05-08 00:29:02,651 - download.py[line:96] - INFO: 盛夏光年-http://dl.stream.qqmusic.qq.com/C100003fZkpm1X2qCH.m4a?fromtag=38
+2020-05-08 00:29:02,701 - download.py[line:116] - INFO: 爬取完成
+2020-05-08 00:29:29,631 - download.py[line:113] - INFO: info
+2020-05-08 00:29:29,633 - download.py[line:59] - INFO: https://music.liuzhijin.cn
+2020-05-08 00:29:31,137 - download.py[line:87] - INFO: 拥抱-http://m10.music.126.net/20200508005430/9212f5af5650bb457d976bc1dcda6750/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/2333459080/d5d5/9288/8707/8c57b7d162536cbc023ddbfaa9059eeb.mp3
+2020-05-08 00:29:31,416 - download.py[line:87] - INFO: 温柔-http://m10.music.126.net/20200508005430/0e803d2577a66be727356aafde2f4827/ymusic/5c59/09fa/9d03/4c98a0c8569ae4bccd115ca88be2d065.mp3
+2020-05-08 00:29:31,641 - download.py[line:87] - INFO: 知足-http://m10.music.126.net/20200508005430/958f06f4a276a74c01f9ad1953c86222/ymusic/7a0a/0e2f/87ac/92a20ea5c429bb61e61bc5bc23f1f4c6.mp3
+2020-05-08 00:29:31,873 - download.py[line:87] - INFO: 倔强-http://m10.music.126.net/20200508005430/d21630523fb439320978cb63db9337f4/ymusic/abd5/5f7f/a70a/6546cdba350cd5cbc7dfe160ae756818.mp3
+2020-05-08 00:29:32,110 - download.py[line:87] - INFO: 黑暗骑士-None
+2020-05-08 00:29:32,111 - download.py[line:87] - INFO: 拥抱-http://m10.music.126.net/20200508005430/5049fb8c69c11d6f9b925e0bcc099d14/ymusic/9753/49dc/c841/3f4bc6b0ebf399f322c6648b558e67fd.mp3
+2020-05-08 00:29:32,319 - download.py[line:87] - INFO: 恋爱ing-http://m10.music.126.net/20200508005430/79c6d6f913023bb13a83c523b2a9457c/ymusic/05be/b8a0/666e/61eaaa850ec915ba5d579829bb3dd3c8.mp3
+2020-05-08 00:29:32,535 - download.py[line:87] - INFO: 志明与春娇-http://m10.music.126.net/20200508005430/77db374fbad9778589432f38d4e39227/ymusic/0608/0f5a/0e0f/1b40d3988780790fd1009e4a758adc70.mp3
+2020-05-08 00:29:32,795 - download.py[line:87] - INFO: 伤心的人别听慢歌 (Live)-http://m10.music.126.net/20200508005430/f730db2c5839a1888f561341335203f5/ymusic/025b/02cd/b587/4ce8d959d9525d9bb54e2733038ce4ea.mp3
+2020-05-08 00:29:33,032 - download.py[line:87] - INFO: 黑暗骑士-None
+2020-05-08 00:29:33,033 - download.py[line:107] - INFO: 爬取完成
+2020-05-08 00:30:55,768 - download.py[line:113] - INFO: info
+2020-05-08 00:30:55,770 - download.py[line:59] - INFO: https://music.liuzhijin.cn
+2020-05-08 00:30:56,875 - download.py[line:87] - INFO: 魔术与歌曲：告白气球-None
+2020-05-08 00:30:56,876 - download.py[line:87] - INFO: 屋顶-http://m10.music.126.net/20200508005556/a09c856a21644bbc36361c92073acbf9/ymusic/d6d3/7aac/9aed/802e6b3a1bd34a18927f4adab563690a.mp3
+2020-05-08 00:30:57,167 - download.py[line:87] - INFO: 布拉格广场-http://m10.music.126.net/20200508005556/ce5275a3b09c3fc3a2232bff578b8f8c/ymusic/fd15/fa55/b281/ce2bddd40798ec720acd091d21eb9cbd.mp3
+2020-05-08 00:30:57,460 - download.py[line:87] - INFO: 骑士精神-http://m10.music.126.net/20200508005556/5514c9507c83bae3ea41f040ceb094f6/ymusic/9253/1b9e/bd30/396b66f65aebe6c29679db77698067ce.mp3
+2020-05-08 00:30:57,711 - download.py[line:87] - INFO: 刀马旦-http://m10.music.126.net/20200508005556/b63ec56768ed077a9b815c44c07cc4fc/ymusic/bc2e/113e/5c74/7bdbe81e15bebf328072e5ab7c358be7.mp3
+2020-05-08 00:30:57,982 - download.py[line:87] - INFO: 祝我生日快乐 (Live)-http://m10.music.126.net/20200508005556/586baaa58d9790721920e09d32f9b16c/ymusic/ee5d/d1b3/e276/1cf9e448d1c3c8657acdf646f5756029.mp3
+2020-05-08 00:30:58,223 - download.py[line:87] - INFO: 屋顶-http://m10.music.126.net/20200508005556/d74185334135934c2a0932d317acf023/ymusic/6482/70ba/64dc/c26b4f17f48a2decea56cc8f3153487d.mp3
+2020-05-08 00:30:58,566 - download.py[line:87] - INFO: 布拉格广场-http://m10.music.126.net/20200508005556/f864ea670081813bf58bd0024cfe4a64/ymusic/7a95/0352/10ee/914385536553cf92869f850d7c00a344.mp3
+2020-05-08 00:30:58,840 - download.py[line:87] - INFO: 刀马旦-http://m10.music.126.net/20200508005556/ef631aef996f2e306064a491e5f8c844/ymusic/1766/43ab/d060/a517513f707a546a1cb14d708944b8ca.mp3
+2020-05-08 00:30:59,036 - download.py[line:87] - INFO: 海盗-http://m10.music.126.net/20200508005556/0c513e92092c0e88bf0e56c7c3c1a094/ymusic/1f39/1ad3/e05f/b7570adf5073f9bb4dc38bd6afbfe0c1.mp3
+2020-05-08 00:30:59,321 - download.py[line:107] - INFO: 爬取完成
