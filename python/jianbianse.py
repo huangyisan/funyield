@@ -1,5 +1,5 @@
-import seaborn as sns
-import matplotlib.pyplot as plt
+# import seaborn as sns
+# import matplotlib.pyplot as plt
 
 def RGB_list_to_Hex(RGB):
     # RGB = rgb.split(',')  # 将RGB格式划分开来
@@ -16,22 +16,29 @@ def Hex_to_RGB(hex):
     g = int(hex[3:5], 16)
     b = int(hex[5:7], 16)
     rgb = str(r) + ',' + str(g) + ',' + str(b)
-    print(rgb)
+    # print(rgb)
     return rgb, [r, g, b]
 
 def gradient_color(color_list, color_sum=700):
     color_center_count = len(color_list)
+    print(color_center_count)
     # if color_center_count == 2:
     #     color_center_count = 1
     color_sub_count = int(color_sum / (color_center_count - 1))
     color_index_start = 0
     color_map = []
     for color_index_end in range(1, color_center_count):
+        print(color_index_end)
         color_rgb_start = Hex_to_RGB(color_list[color_index_start])[1]
+        print(Hex_to_RGB(color_list[color_index_start]))
+        print(color_rgb_start)
         color_rgb_end = Hex_to_RGB(color_list[color_index_end])[1]
         r_step = (color_rgb_end[0] - color_rgb_start[0]) / color_sub_count
+        print(r_step)
         g_step = (color_rgb_end[1] - color_rgb_start[1]) / color_sub_count
+        print(g_step)
         b_step = (color_rgb_end[2] - color_rgb_start[2]) / color_sub_count
+        print(b_step)
         # 生成中间渐变色
         now_color = color_rgb_start
         color_map.append(RGB_list_to_Hex(now_color))
@@ -45,6 +52,6 @@ if __name__ == '__main__':
     # input_colors = ["#40FAFF", "#00EBEB", "#00EB00", "#FFC800", "#FC9600", "#FA0000", "#C800FA", "#FF64FF"]
     input_colors = ["#ff0000", "#ffff00"]
     colors = gradient_color(input_colors)
-    sns.palplot(colors)
-    print(len(colors))
-    plt.show()
+    # sns.palplot(colors)
+    # print(len(colors))
+    # plt.show()
