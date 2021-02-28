@@ -36,7 +36,7 @@ def consumer(re, cn: threading.Condition):
 
 
 def producer(cn: threading.Condition):
-    r = random.randint(2, 4)
+    r = random.randint(2, 10)
     logging.debug("random num is {}".format(r))
 
     for i in range(0, r):
@@ -68,5 +68,5 @@ if __name__ == '__main__':
 
     pd.start()
 
-    pd.join()
-    c.join()
+    # pd.join()
+    # c.join()
