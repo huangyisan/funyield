@@ -5,6 +5,7 @@ import random
 
 logging.basicConfig(level=logging.DEBUG, format="(%(threadName)s) %(message)s',")
 
+# resource为公共资源
 resource = []
 sleep_time = 2
 
@@ -25,8 +26,10 @@ def consume_resource(re):
 
 # 定义consumer
 def consumer(re, cn: threading.Condition):
+    # 获取锁
     cn.acquire()
     while True:
+        # 如果消费失败，则调用wait方法，线程睡眠，且释放锁，等待被notify
         try:
             consume_resource(re)
         except:
@@ -44,11 +47,14 @@ def producer(cn: threading.Condition):
         time.sleep(sleep_time)
 
         logging.debug("try to get lock")
+        # 获取锁
         cn.acquire()
 
         try:
+            # 尝试添加资源。并且通知所有其他线程
             add_resource(i)
             cn.notify_all()
+        # 无论如何最终都释放锁
         finally:
             cn.release()
 
@@ -68,5 +74,3 @@ if __name__ == '__main__':
 
     pd.start()
 
-    # pd.join()
-    # c.join()
